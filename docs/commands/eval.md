@@ -90,7 +90,7 @@ The Lua environment inside the Tile38 server also defines these helper functions
 * `tile38.sha1hex(input_string)` returns a hex representation of a SHA1 digest.
 * `tile38.distance_to(lat_a, lon_a, lat_b, lon_b)` returns a distance between points `a` and `b`, in meters.
 
-## Helper vairables
+## Helper variables
 
 * A global variable `DEADLINE` is set inside the Lua environment. Its value is either `nil` (no timeout)
 or a Unix epoch second of the deadline after which the script will be killed, if invoked with the [TIMEOUT](../commands/timeout.md).
